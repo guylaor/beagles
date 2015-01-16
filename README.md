@@ -13,13 +13,13 @@ http://ramakrishnanandaradio.com/
 
 Sample implementation:
 
-$( document ).ready( 
+<pre>
+
 beagles.init({
 		streamURL: 'http://ICE_CAST_URL/channel',
 		logging: true,
 		callBack: function() { hideBuffering() } 
-	}, jQuery)
-);
+	}, jQuery);
 
 
 
@@ -28,3 +28,4 @@ function hideBuffering() {
   console.log("player is playing");
 }
 
+</pre>
